@@ -1,0 +1,17 @@
+git init
+git remote add origin https://github.com/mensalda/EvseevMA_task2.git
+git add .
+git commit -m "Hello world"
+git push -u origin master
+git branch rating
+git checkout rating
+git add .
+git commit -m "rating"
+git branch comment
+git checkout comment
+git add .
+git commit -m "Comment"
+git checkout master
+git merge rating
+git merge comment
+git push
